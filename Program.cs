@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.IO;
 using System.Linq;
 
@@ -31,9 +32,26 @@ namespace Advent_of_Code___Day_2
                 }
             }
 
-            foreach (List<int> reportsLine in reports)
+            foreach (List<int> report in reports)
             {
-                if (IsSafe(reportsLine)) ++counter;
+                if (IsSafe(report))
+                {
+                    ++counter;
+                }
+                else
+                {
+                    for (int i = 0; i < report.Count; i++)
+                    {
+                        List<int> reportCopy = report.ToList();
+                        reportCopy.RemoveAt(i);
+
+                        if (IsSafe(reportCopy))
+                        {
+                            ++counter;
+                            break;
+                        }
+                    }
+                }
             }
 
             Console.WriteLine(counter);
