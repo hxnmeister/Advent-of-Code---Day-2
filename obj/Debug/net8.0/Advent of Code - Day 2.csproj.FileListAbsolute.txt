@@ -12,3 +12,4 @@ G:\Visual Studio Projects\Advent of Code - Day 2\obj\Debug\net8.0\refint\Advent 
 G:\Visual Studio Projects\Advent of Code - Day 2\obj\Debug\net8.0\Advent of Code - Day 2.pdb
 G:\Visual Studio Projects\Advent of Code - Day 2\obj\Debug\net8.0\Advent of Code - Day 2.genruntimeconfig.cache
 G:\Visual Studio Projects\Advent of Code - Day 2\obj\Debug\net8.0\ref\Advent of Code - Day 2.dll
+G:\Visual Studio Projects\Advent of Code - Day 2\obj\Debug\net8.0\Advent of Code - Day 2.sourcelink.json

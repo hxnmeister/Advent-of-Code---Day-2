@@ -7,10 +7,6 @@
       "RelativeMoniker": "D:0:0:{962EFF9A-4CA7-4F55-AD2F-8DF7F6CB1983}|Advent of Code - Day 2.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{962EFF9A-4CA7-4F55-AD2F-8DF7F6CB1983}|Advent of Code - Day 2.csproj|g:\\visual studio projects\\advent of code - day 2\\test_input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{962EFF9A-4CA7-4F55-AD2F-8DF7F6CB1983}|Advent of Code - Day 2.csproj|solutionrelative:test_input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{962EFF9A-4CA7-4F55-AD2F-8DF7F6CB1983}|Advent of Code - Day 2.csproj|g:\\visual studio projects\\advent of code - day 2\\input.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{962EFF9A-4CA7-4F55-AD2F-8DF7F6CB1983}|Advent of Code - Day 2.csproj|solutionrelative:input.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
@@ -22,24 +18,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 234,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "test_input.txt",
-              "DocumentMoniker": "G:\\Visual Studio Projects\\Advent of Code - Day 2\\test_input.txt",
-              "RelativeDocumentMoniker": "test_input.txt",
-              "ToolTip": "G:\\Visual Studio Projects\\Advent of Code - Day 2\\test_input.txt",
-              "RelativeToolTip": "test_input.txt",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-04T10:23:33.989Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "input.txt",
               "DocumentMoniker": "G:\\Visual Studio Projects\\Advent of Code - Day 2\\input.txt",
               "RelativeDocumentMoniker": "input.txt",
@@ -47,8 +30,7 @@
               "RelativeToolTip": "input.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAOgDAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2024-12-04T10:15:36.192Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-04T10:15:36.192Z"
             },
             {
               "$type": "Document",
@@ -58,7 +40,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "G:\\Visual Studio Projects\\Advent of Code - Day 2\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAgwAsAAABZAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAsAAABZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T10:14:14.591Z",
               "EditorCaption": ""

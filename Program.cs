@@ -19,43 +19,45 @@ namespace Advent_of_Code___Day_2
             {
                 while (!sr.EndOfStream)
                 {
-                    reports.Add(sr.ReadLine()
+                    string? currentLine = sr.ReadLine();
+
+                    if (!string.IsNullOrEmpty(currentLine))
+                    {
+                        reports.Add(currentLine
                         .Split(' ')
                         .Select(item => Int32.Parse(item))
                         .ToList());
+                    }
                 }
             }
 
-            foreach (var report in reports)
+            foreach (List<int> reportsLine in reports)
             {
-                bool? isIncrease = null;
-                bool isSafe = true;
-
-                for (int j = 1, m = 0; j < report.Count && m <= report.Count; j++, m++)
-                {
-                    int diff = report[m] - report[j];
-                    int abs = Math.Abs(diff);
-
-                    if ((abs < 1 || abs > 3))
-                    {
-                        isSafe = false;
-                        break;
-                    }
-                    else if (isIncrease == null)
-                    {
-                        isIncrease = diff < 0;
-                    }
-                    else if (isIncrease.Value && diff > 0 ||  !isIncrease.Value && diff < 0)
-                    {
-                        isSafe = false;
-                        break;
-                    }
-                }
-
-                if (isSafe) ++counter;
+                if (IsSafe(reportsLine)) ++counter;
             }
 
             Console.WriteLine(counter);
+        }
+
+        public static bool IsSafe(List<int> line)
+        {
+            bool increment = line[0] > line[1];
+
+            for (int i = 0; i < line.Count - 1; i++)
+            {
+                int diff = line[i] - line[i + 1];
+
+                if (increment && (diff < 1 || diff > 3))
+                {
+                    return false;
+                }
+                else if(!increment && (diff < -3 || diff > -1))
+                {
+                    return false;
+                }
+            }
+
+            return true;
         }
     }
 }
